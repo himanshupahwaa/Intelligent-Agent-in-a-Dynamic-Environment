@@ -1,6 +1,6 @@
 # Search-Algorithms-in-a-Dynamic-Environment
 
-The project involved creating different agents to navigate through mazes filled with ghosts. The mazes were generated using numpy.random, with probabilities assigned to each cell to be blocked or unblocked. The agents' survivability was evaluated based on their ability to reach the goal without being killed by ghosts. These agents at their core utilized search algorithms like BFS, DFS, A-Star Search, Bi-Directional Search based on the kind of environment they were tackling.
+This project involved creating different agents to navigate through mazes filled with ghosts. The mazes were generated using numpy.random, with probabilities assigned to each cell to be blocked or unblocked. The agents' survivability was evaluated based on their ability to reach the goal without being killed by ghosts. These agents at their core utilized search algorithms like BFS, DFS, A-Star Search, Bi-Directional Search based on the kind of environment they were tackling.
 
 Agent 1 used a simple Depth First Search (DFS) algorithm to find a path from the start node to the goal. However, it did not consider the presence of ghosts and had low survivability.
 
